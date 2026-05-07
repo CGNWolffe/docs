@@ -1,0 +1,92 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "Opp Docs",
+  "description": "Official documentation for OPP GLJRP Niagara Detachment members — procedures, SOPs, radio usage, and patrol expectations.",
+  "colors": {
+    "primary": "#d7ac26",
+    "light": "#999035",
+    "dark": "#3f3820"
+  },
+  "favicon": "/favicon.ico",
+  "logo": {
+    "light": "https://media.brand.dev/ca27d175-2218-42b1-9afe-714e1998f33d.png",
+    "dark": "https://media.brand.dev/ca27d175-2218-42b1-9afe-714e1998f33d.png"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "contextual": {
+    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "OPP Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "new-member-checklist"
+            ]
+          },
+          {
+            "group": "Procedures & SOPs",
+            "pages": [
+              "procedures/overview",
+              "procedures/patrol",
+              "procedures/report-writing",
+              "procedures/radio-usage"
+            ]
+          },
+          {
+            "group": "Training",
+            "pages": [
+              "training/fto-program",
+              "training/supervised-patrol"
+            ]
+          },
+          {
+            "group": "Communication",
+            "pages": [
+              "communication/radio-codes",
+              "communication/callsigns",
+              "communication/discord"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "OPP Sub Divisions",
+        "groups": [
+          {
+            "group": "🐕K9 DIVISION",
+            "pages": [
+              "untitled-page"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Discord",
+        "href": "https://discord.gg"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Join Discord",
+      "href": "https://discord.gg"
+    }
+  },
+  "footer": {
+    "socials": {}
+  }
+}

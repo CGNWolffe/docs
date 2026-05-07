@@ -1,0 +1,64 @@
+{
+  "projectType": "saas",
+  "projectName": "OPP GLJRP Niagara Detachment",
+  "projectDescription": "Official documentation system for members of the Ontario Provincial Police GLJRP Niagara Detachment, covering procedures, SOPs, radio usage, and patrol expectations.",
+  "theme": "almond",
+  "primaryColor": "#d7ac26",
+  "lightColor": "#999035",
+  "darkColor": "#3f3820",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "new-member-checklist"
+            ]
+          },
+          {
+            "group": "Procedures & SOPs",
+            "pages": [
+              "procedures/overview",
+              "procedures/patrol",
+              "procedures/report-writing",
+              "procedures/radio-usage"
+            ]
+          },
+          {
+            "group": "Training",
+            "pages": [
+              "training/fto-program",
+              "training/supervised-patrol"
+            ]
+          },
+          {
+            "group": "Communication",
+            "pages": [
+              "communication/radio-codes",
+              "communication/callsigns",
+              "communication/discord"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Standard operating procedures for roleplay patrol",
+    "New member onboarding checklist",
+    "Radio usage and communication protocols",
+    "FTO (Field Training Officer) program",
+    "Report writing guidelines",
+    "Callsign assignment system"
+  ],
+  "publicApiSurface": [
+    "New Member Checklist",
+    "SOP Reference",
+    "Radio Usage Guide",
+    "FTO Training Program",
+    "Patrol Procedures"
+  ]
+}

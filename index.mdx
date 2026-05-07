@@ -1,0 +1,80 @@
+---
+title: "OPP GLJRP Niagara Detachment"
+description: "Official documentation for Ontario Provincial Police GLJRP Niagara Detachment members — covering procedures, SOPs, radio usage, training, and patrol standards."
+mode: custom
+---
+
+<div className="mx-auto flex w-full max-w-[720px] flex-col gap-12 px-4 py-10 lg:gap-14 lg:py-16">
+  <div className="flex flex-col items-center gap-6">
+    <div className="flex max-w-[480px] flex-col gap-2 text-center">
+      <h1 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">
+        Welcome to OPP GLJRP Niagara
+      </h1>
+      <p className="text-balance text-base text-gray-600 dark:text-gray-400">
+        Your official reference for all procedures, systems, and expectations as a member of the Ontario Provincial Police GLJRP Niagara Detachment. Use the tabs to navigate or search with <kbd>⌘</kbd> <kbd>K</kbd>.
+      </p>
+    </div>
+  </div>
+
+  <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+    <a
+      href="/new-member-checklist"
+      className="group flex flex-col outline-none"
+    >
+      <div
+        className="kb-feature-card relative flex h-[170px] items-center justify-center overflow-hidden rounded-2xl ring-1 ring-gray-100 transition group-hover:ring-gray-200 dark:ring-white/[0.08] dark:group-hover:ring-white/15 saturate-50 group-hover:saturate-100"
+      >
+        <div className="relative flex items-center justify-center">
+          <Icon icon="clipboard-list" size={36} className="!bg-white" />
+        </div>
+      </div>
+      <div className="flex flex-col gap-1 pt-4">
+        <span className="text-base font-medium text-gray-900 dark:text-gray-50">New member checklist</span>
+        <span className="text-sm leading-5 text-gray-600 dark:text-gray-400">
+          Everything you need to do before your first patrol — from joining Discord to completing FTO training.
+        </span>
+      </div>
+    </a>
+
+    <a
+      href="/procedures/patrol"
+      className="group flex flex-col outline-none"
+    >
+      <div
+        className="kb-feature-card relative flex h-[170px] items-center justify-center overflow-hidden rounded-2xl ring-1 ring-gray-100 transition group-hover:ring-gray-200 dark:ring-white/[0.08] dark:group-hover:ring-white/15 saturate-50 group-hover:saturate-100"
+      >
+        <div className="relative flex items-center justify-center">
+          <Icon icon="shield" size={36} className="!bg-white" />
+        </div>
+      </div>
+      <div className="flex flex-col gap-1 pt-4">
+        <span className="text-base font-medium text-gray-900 dark:text-gray-50">Patrol procedures</span>
+        <span className="text-sm leading-5 text-gray-600 dark:text-gray-400">
+          Standard operating procedures for conducting patrols professionally and consistently within the detachment.
+        </span>
+      </div>
+    </a>
+  </div>
+
+  <div className="flex flex-col gap-4">
+    <h2 className="text-lg font-medium tracking-tight text-gray-900 dark:text-gray-50">Resources</h2>
+
+    <Columns cols={2}>
+      <Card title="Procedures & SOPs" icon="book-open" iconType="light" href="/procedures/overview">
+        Patrol SOPs, report writing guidelines, and radio procedures.
+      </Card>
+      <Card title="Training" icon="graduation-cap" iconType="light" href="/training/fto-program">
+        FTO program details and supervised patrol expectations.
+      </Card>
+    </Columns>
+
+    <Columns cols={2}>
+      <Card title="Radio & Callsigns" icon="radio" iconType="light" href="/communication/radio-codes">
+        Radio codes, callsign structure, and communication standards.
+      </Card>
+      <Card title="Discord" icon="message-circle" iconType="light" href="/communication/discord">
+        How to join, navigate, and use the OPP Discord server.
+      </Card>
+    </Columns>
+  </div>
+</div>
