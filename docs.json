@@ -23,50 +23,50 @@
     "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
   },
   "navigation": {
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "OPP Documentation",
-        "groups": [
+        "dropdown": "Untitled Dropdown",
+        "tabs": [
           {
-            "group": "Getting Started",
-            "pages": [
-              "introduction",
-              "new-member-checklist"
+            "tab": "OPP Documentation",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "introduction",
+                  "new-member-checklist"
+                ]
+              },
+              {
+                "group": "Procedures & SOPs",
+                "pages": [
+                  "procedures/overview",
+                  "procedures/patrol",
+                  "procedures/report-writing",
+                  "procedures/radio-usage"
+                ]
+              },
+              {
+                "group": "Training",
+                "pages": [
+                  "training/fto-program",
+                  "training/supervised-patrol"
+                ]
+              },
+              {
+                "group": "Communication",
+                "pages": [
+                  "communication/radio-codes",
+                  "communication/callsigns",
+                  "communication/discord"
+                ]
+              }
             ]
           },
           {
-            "group": "Procedures & SOPs",
+            "tab": "Sub Divisions",
             "pages": [
-              "procedures/overview",
-              "procedures/patrol",
-              "procedures/report-writing",
-              "procedures/radio-usage"
-            ]
-          },
-          {
-            "group": "Training",
-            "pages": [
-              "training/fto-program",
-              "training/supervised-patrol"
-            ]
-          },
-          {
-            "group": "Communication",
-            "pages": [
-              "communication/radio-codes",
-              "communication/callsigns",
-              "communication/discord"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "OPP Sub Divisions",
-        "groups": [
-          {
-            "group": "🐕K9 DIVISION",
-            "pages": [
-              "untitled-page"
+              "k9-division"
             ]
           }
         ]
