@@ -25,7 +25,7 @@
   "navigation": {
     "dropdowns": [
       {
-        "dropdown": "Untitled Dropdown",
+        "dropdown": "Ontario Provincial Police",
         "tabs": [
           {
             "tab": "OPP Documentation",
@@ -70,7 +70,11 @@
               "untitled-page"
             ]
           }
-        ]
+        ],
+        "color": {
+          "light": "#fffc00",
+          "dark": "#fffc00"
+        }
       }
     ]
   },
