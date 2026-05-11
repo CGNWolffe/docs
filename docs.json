@@ -81,10 +81,9 @@
       },
       {
         "dropdown": "Great Lakes Justice Handbook",
-        "tabs": [
-          {
-            "tab": "Home Page"
-          }
+        "pages": [
+          "homepage",
+          "untitled-page"
         ]
       }
     ]
