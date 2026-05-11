@@ -25,6 +25,16 @@
   "navigation": {
     "dropdowns": [
       {
+        "dropdown": "Great Lakes Justice Rules & Regulations",
+        "color": {
+          "light": "#a31515",
+          "dark": "#a31515"
+        },
+        "pages": [
+          "rules"
+        ]
+      },
+      {
         "dropdown": "Ontario Provincial Police",
         "tabs": [
           {
