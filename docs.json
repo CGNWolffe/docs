@@ -25,6 +25,14 @@
   "navigation": {
     "dropdowns": [
       {
+        "dropdown": "Great Lakes Justice Handbook",
+        "tabs": [
+          {
+            "tab": "Handbook"
+          }
+        ]
+      },
+      {
         "dropdown": "Ontario Provincial Police",
         "tabs": [
           {
@@ -67,10 +75,10 @@
             "tab": "OPP Sub Divisions",
             "pages": [
               "k9-division",
-              "untitled-page",
               "emergency-task-force",
               "air-operations-division",
-              "air-operations-division-1"
+              "air-operations-division-1",
+              "untitled-page"
             ]
           }
         ],
@@ -80,7 +88,12 @@
         }
       },
       {
-        "dropdown": "Great Lakes Justice Handbook"
+        "dropdown": "Vermont State Police",
+        "tabs": [
+          {
+            "tab": "Untitled Tab"
+          }
+        ]
       }
     ]
   },
