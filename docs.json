@@ -28,7 +28,14 @@
         "dropdown": "Great Lakes Justice Handbook",
         "tabs": [
           {
-            "tab": "Handbook"
+            "tab": "Handbook",
+            "pages": [
+              "rules",
+              {
+                "group": "Untitled Group",
+                "pages": []
+              }
+            ]
           }
         ]
       },
