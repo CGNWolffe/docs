@@ -37,7 +37,11 @@
               }
             ]
           }
-        ]
+        ],
+        "color": {
+          "light": "#ff0000",
+          "dark": "#ff0000"
+        }
       },
       {
         "dropdown": "Ontario Provincial Police",
