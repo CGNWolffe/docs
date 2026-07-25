@@ -1,0 +1,73 @@
+---
+title: "Pursuits and Emergency Traffic"
+description: "Dispatch role during a pursuit, and how the channel is managed during emergency traffic."
+icon: "triangle-exclamation"
+---
+
+During a pursuit, dispatch controls the channel. Everything that is not related to the pursuit waits.
+
+## Declaring emergency traffic
+
+<Steps>
+
+<Step title="Acknowledge and take the channel">
+When a unit declares a pursuit or emergency traffic, acknowledge immediately and advise all units to hold their transmissions.
+</Step>
+
+<Step title="Broadcast the essentials">
+Direction of travel, current street, vehicle description, plate, and the reason for the pursuit.
+</Step>
+
+<Step title="Get a supervisor on the air">
+A supervisor must be aware and monitoring. Note when they acknowledge.
+</Step>
+
+<Step title="Log continuously">
+Time, location, and speed at each update. This record matters afterward.
+</Step>
+
+<Step title="Clear the channel when it ends">
+Announce that emergency traffic is over and normal traffic may resume.
+</Step>
+
+</Steps>
+
+## What dispatch broadcasts
+
+| Field | Why it matters |
+| ----- | -------------- |
+| Direction of travel | Lets other units position ahead rather than chase from behind |
+| Street and cross street | The only way units can converge accurately |
+| Vehicle description and plate | Identifies the vehicle if it is lost from view |
+| Speed and driving behaviour | Feeds the decision on whether to continue |
+| Reason for the pursuit | Determines whether the risk is justified |
+
+<Warning>
+If the primary unit loses visual contact, say so on the air immediately. A pursuit that continues on assumption is more dangerous than one that is called off.
+</Warning>
+
+## Support to start automatically
+
+<AccordionGroup>
+
+<Accordion title="Secondary unit" icon="car">
+One backup unit joins as secondary. Additional units stay off the pursuit and position ahead instead.
+</Accordion>
+
+<Accordion title="Supervisor" icon="user-tie">
+Monitors and holds the authority to terminate.
+</Accordion>
+
+<Accordion title="Air support and canine" icon="helicopter">
+Start early if available. Air support often allows ground units to back off entirely.
+</Accordion>
+
+<Accordion title="EMS on standby" icon="truck-medical">
+Place EMS on standby for any pursuit at speed, before anything happens rather than after.
+</Accordion>
+
+</AccordionGroup>
+
+<Note>
+Pursuit authority and termination criteria are policy decisions. Replace this page's guidance with your organization's actual pursuit policy.
+</Note>
