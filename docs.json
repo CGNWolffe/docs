@@ -87,6 +87,8 @@
                 "group": "Dispatch",
                 "pages": [
                   "dispatch/overview",
+                  "dispatch/codes",
+                  "dispatch/callsigns",
                   "dispatch/queries",
                   "dispatch/pursuits"
                 ]
