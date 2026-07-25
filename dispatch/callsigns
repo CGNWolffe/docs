@@ -1,0 +1,56 @@
+---
+title: "Callsigns and Unit Numbering"
+description: "How units are identified on the air, and how dispatch addresses them."
+icon: "id-badge"
+---
+
+Every unit on the channel has one callsign, and it does not change during a shift. Dispatch addresses units by callsign only, never by name.
+
+## Structure
+
+A callsign has three parts read in order: detachment, function, and unit number.
+
+| Part | Example | Notes |
+| ---- | ------- | ----- |
+| Detachment | 3 | Numeric prefix identifying the detachment or zone |
+| Function | A | Letter identifying the assignment type |
+| Unit number | 12 | Sequential, assigned at start of shift |
+
+Spoken as: three Adam twelve.
+
+## Function letters
+
+| Letter | Assignment |
+| :----: | ---------- |
+| A | General patrol |
+| S | Supervisor |
+| K | Canine |
+| T | Traffic enforcement |
+| D | Detective or plainclothes |
+| C | Communications and dispatch |
+
+## Addressing units on the air
+
+<Steps>
+
+<Step title="Call the unit, then identify yourself">
+"Three Adam twelve, dispatch." Wait for the unit to acknowledge before continuing with the message.
+</Step>
+
+<Step title="Give the traffic">
+Once acknowledged, deliver the call: priority, location, nature.
+</Step>
+
+<Step title="Confirm the copy">
+Do not assume receipt. If a unit does not acknowledge after two attempts, note it and try again after clearing other traffic.
+</Step>
+
+</Steps>
+
+<Info>
+Spell callsigns phonetically whenever the channel is noisy. The letter is the part that gets lost. See the [Phonetic Alphabet](/phonetics) page for the tables.
+</Info>
+
+<Note>
+The detachment prefixes and function letters above are a template. Replace them with your own before publishing.
+</Note>
