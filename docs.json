@@ -1,5 +1,4 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
   "name": "Opp Docs",
   "description": "Official documentation for OPP GLJRP Niagara Detachment members — procedures, SOPs, radio usage, and patrol expectations.",
@@ -8,24 +7,51 @@
     "light": "#999035",
     "dark": "#3f3820"
   },
-  "favicon": "/favicon.ico",
   "logo": {
     "light": "https://media.brand.dev/ca27d175-2218-42b1-9afe-714e1998f33d.png",
     "dark": "https://media.brand.dev/ca27d175-2218-42b1-9afe-714e1998f33d.png"
   },
+  "favicon": "/favicon.ico",
+  "navbar": {
+    "links": [
+      {
+        "href": "https://discord.gg",
+        "label": "Discord"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Join Discord",
+      "href": "https://discord.gg"
+    }
+  },
+  "footer": {
+    "socials": {}
+  },
   "icons": {
     "library": "lucide"
   },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "assistant",
+      "mcp",
+      "add-mcp"
+    ],
+    "display": "header"
+  },
   "metadata": {
     "timestamp": true
-  },
-  "contextual": {
-    "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
   },
   "navigation": {
     "dropdowns": [
       {
         "dropdown": "Great Lakes Justice Handbook",
+        "color": {
+          "light": "#ff0000",
+          "dark": "#ff0000"
+        },
         "tabs": [
           {
             "tab": "Handbook",
@@ -37,14 +63,14 @@
               }
             ]
           }
-        ],
-        "color": {
-          "light": "#ff0000",
-          "dark": "#ff0000"
-        }
+        ]
       },
       {
         "dropdown": "Ontario Provincial Police",
+        "color": {
+          "light": "#fffc00",
+          "dark": "#fffc00"
+        },
         "tabs": [
           {
             "tab": "OPP Documentation",
@@ -62,9 +88,7 @@
                   "procedures/overview",
                   "procedures/patrol",
                   "procedures/report-writing",
-                  "procedures/radio-usage",
-                  "procedures/phonetics-alphabet"
-                  "procedures/phonetics"
+                  "procedures/radio-usage"
                 ]
               },
               {
@@ -94,11 +118,7 @@
               "untitled-page"
             ]
           }
-        ],
-        "color": {
-          "light": "#fffc00",
-          "dark": "#fffc00"
-        }
+        ]
       },
       {
         "dropdown": "Vermont State Police",
@@ -109,21 +129,5 @@
         ]
       }
     ]
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Discord",
-        "href": "https://discord.gg"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Join Discord",
-      "href": "https://discord.gg"
-    }
-  },
-  "footer": {
-    "socials": {}
   }
 }
