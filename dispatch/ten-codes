@@ -1,0 +1,52 @@
+---
+title: "Ten Codes and Signals"
+description: "Radio brevity codes used by dispatch and road units, and when plain language is required instead."
+icon: "list-ol"
+---
+
+Ten codes compress common transmissions into a few syllables, which keeps the channel clear. They are only useful when everyone on the channel knows them, so the list below is the authoritative set. If you are unsure of a code, use plain language.
+
+<Warning>
+Ten codes are not standardized between services. A code that means one thing here may mean something else on a neighbouring channel. When working with an outside agency, drop codes entirely and speak plainly.
+</Warning>
+
+## Status and movement
+
+| Code | Meaning |
+| ---- | ------- |
+| 10-4 | Acknowledged |
+| 10-6 | Busy, stand by |
+| 10-7 | Out of service |
+| 10-8 | In service, available |
+| 10-9 | Repeat your last transmission |
+| 10-10 | Off duty |
+| 10-17 | En route |
+| 10-23 | On scene |
+| 10-97 | Arrived at destination |
+
+## Calls and requests
+
+| Code | Meaning |
+| ---- | ------- |
+| 10-12 | Visitors or civilians present, watch your traffic |
+| 10-20 | Location |
+| 10-21 | Call by telephone |
+| 10-22 | Disregard, cancel the call |
+| 10-27 | Licence or driver information request |
+| 10-28 | Plate or registration request |
+| 10-29 | Check for wanted or stolen |
+| 10-38 | Traffic Stop |
+| 10-52 | Ambulance required |
+| 10-78 | Require backup |
+
+## Priority traffic
+
+| Code | Meaning |
+| ---- | ------- |
+| 10-33 | Emergency, clear the channel |
+| 10-80 | Pursuit in progress |
+| 10-99 | Officer in distress, immediate response |
+
+<Note>
+Use plain language for anything urgent or unusual. "Shots fired, officer down" is always clearer than a code, and clarity outranks brevity when it counts.
+</Note>
