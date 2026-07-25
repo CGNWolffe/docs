@@ -32,13 +32,7 @@
     "library": "lucide"
   },
   "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "assistant",
-      "mcp",
-      "add-mcp"
-    ],
+    "options": ["copy", "view", "assistant", "mcp", "add-mcp"],
     "display": "header"
   },
   "metadata": {
@@ -48,39 +42,24 @@
     "dropdowns": [
       {
         "dropdown": "Great Lakes Justice Handbook",
-        "color": {
-          "light": "#ff0000",
-          "dark": "#ff0000"
-        },
+        "color": { "light": "#ff0000", "dark": "#ff0000" },
         "tabs": [
           {
             "tab": "Handbook",
-            "pages": [
-              "rules",
-              {
-                "group": "Untitled Group",
-                "pages": []
-              }
-            ]
+            "pages": ["rules"]
           }
         ]
       },
       {
         "dropdown": "Ontario Provincial Police",
-        "color": {
-          "light": "#fffc00",
-          "dark": "#fffc00"
-        },
+        "color": { "light": "#fffc00", "dark": "#fffc00" },
         "tabs": [
           {
             "tab": "OPP Documentation",
             "groups": [
               {
                 "group": "Getting Started",
-                "pages": [
-                  "introduction",
-                  "new-member-checklist"
-                ]
+                "pages": ["introduction", "new-member-checklist"]
               },
               {
                 "group": "Procedures & SOPs",
@@ -94,10 +73,7 @@
               },
               {
                 "group": "Training",
-                "pages": [
-                  "training/fto-program",
-                  "training/supervised-patrol"
-                ]
+                "pages": ["training/fto-program", "training/supervised-patrol"]
               },
               {
                 "group": "Communication",
@@ -105,6 +81,14 @@
                   "communication/radio-codes",
                   "communication/callsigns",
                   "communication/discord"
+                ]
+              },
+              {
+                "group": "Dispatch",
+                "pages": [
+                  "dispatch/overview",
+                  "dispatch/queries",
+                  "dispatch/pursuits"
                 ]
               }
             ]
@@ -114,18 +98,8 @@
             "pages": [
               "k9-division",
               "emergency-task-force",
-              "air-operations-division",
-              "air-operations-division-1",
-              "untitled-page"
+              "air-operations-division"
             ]
-          }
-        ]
-      },
-      {
-        "dropdown": "Vermont State Police",
-        "tabs": [
-          {
-            "tab": "Untitled Tab"
           }
         ]
       }
