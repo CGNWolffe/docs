@@ -1,0 +1,88 @@
+---
+title: "Dispatch Overview"
+description: "How dispatch handles calls, assigns units, and manages radio traffic."
+icon: "headset"
+---
+
+Dispatch is the single point of coordination for all units on the road. Every call for service is received, prioritized, and assigned through dispatch, and every unit reports its status back to dispatch so that available resources are known at all times.
+
+<Info>
+If you are new to the dispatch role, read this page first, then the [Phonetic Alphabet](/phonetics) reference. Radio discipline matters more than speed.
+</Info>
+
+## Call flow
+
+<Steps>
+
+<Step title="Receive">
+Take the call and record the essentials: location, nature of the complaint, whether anyone is injured, and whether weapons are involved.
+</Step>
+
+<Step title="Prioritize">
+Assign a priority based on threat to life and urgency. See the priority table below.
+</Step>
+
+<Step title="Assign">
+Broadcast the call to the nearest available unit by callsign. State the priority, the location, and the nature of the call, in that order.
+</Step>
+
+<Step title="Support">
+Relay updates, run plates and names on request, and start additional units or services (fire, EMS, supervisor) as the call develops.
+</Step>
+
+<Step title="Close">
+Log the disposition once the primary unit clears, and return the unit to available status.
+</Step>
+
+</Steps>
+
+## Call priority
+
+| Priority | Meaning | Response |
+| :------: | ------- | -------- |
+| 1 | Threat to life in progress | Immediate, emergency response, multiple units |
+| 2 | Urgent, no immediate threat to life | Prompt response, no emergency equipment |
+| 3 | Routine call for service | Assign when a unit is free |
+| 4 | Report only, no attendance required | Handled by phone or online report |
+
+<Warning>
+Priority is set by the information available at the time and can change. If a caller reports a weapon or an injury mid-call, upgrade the priority immediately and advise responding units over the air.
+</Warning>
+
+## Unit status
+
+| Status | Meaning |
+| ------ | ------- |
+| Available | In service, clear for assignment |
+| En route | Assigned and travelling to a call |
+| On scene | Arrived at the call location |
+| Busy | In service but committed, not clear for assignment |
+| Out of service | Off the road, not available |
+
+Units are expected to advise dispatch on every status change. A unit that has not reported in should be checked on.
+
+## Radio discipline
+
+<AccordionGroup>
+
+<Accordion title="Listen before transmitting" icon="ear-listen">
+Confirm the channel is clear. Talking over another unit can bury a call for help.
+</Accordion>
+
+<Accordion title="Keep transmissions short" icon="clock">
+Say what is needed and release the key. Long transmissions block the channel for everyone else.
+</Accordion>
+
+<Accordion title="Use phonetics for anything spelled" icon="radio">
+Names, plates, and street names go out in phonetics. See the [Phonetic Alphabet](/phonetics) page for the NATO and APCO tables.
+</Accordion>
+
+<Accordion title="Emergency traffic takes the channel" icon="triangle-exclamation">
+When a unit calls emergency traffic, all other units hold their transmissions until dispatch clears the channel.
+</Accordion>
+
+</AccordionGroup>
+
+<Note>
+The priority levels and status terms above are a template. Replace them with the values your service actually uses before publishing.
+</Note>
