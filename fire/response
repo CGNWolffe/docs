@@ -1,0 +1,70 @@
+---
+title: "Response Types"
+description: "What gets dispatched to each call type, and how scenes are run on arrival."
+icon: "siren"
+---
+
+Dispatch assigns apparatus by call type. The assignments below are the default — command can request more at any time.
+
+## Assignments
+
+| Call type | Default response |
+| --------- | ---------------- |
+| Structure fire | Two engines, one ladder, one medic, battalion chief |
+| Vehicle fire | One engine |
+| Motor vehicle collision | One engine, one rescue, one medic |
+| Medical call | One medic |
+| Alarm activation | One engine |
+| Brush or outdoor fire | One engine, one tanker |
+
+<Warning>
+A reported entrapment, a report of people trapped inside, or any working fire upgrades the response immediately. Do not wait for arrival to confirm — start the extra apparatus and cancel them later if not needed.
+</Warning>
+
+## On arrival
+
+<Steps>
+
+<Step title="Give a size-up">
+First unit on scene reports what it sees: building type, what is showing, and whether anyone is reported inside. Everyone still responding is listening to this.
+</Step>
+
+<Step title="Establish command">
+State who has command and where. "Engine One has command, Alpha side."
+</Step>
+
+<Step title="Assign incoming units">
+Give each arriving apparatus a task before it arrives. Unassigned crews create freelancing.
+</Step>
+
+<Step title="Account for personnel">
+Track who is inside and where. Run a headcount at every change in strategy.
+</Step>
+
+<Step title="Terminate and report">
+Announce the scene is clear, return units to available, and file the incident report before signing off.
+</Step>
+
+</Steps>
+
+## Scene coordination with OPP
+
+<AccordionGroup>
+
+<Accordion title="Traffic and perimeter belong to police" icon="triangle-alert">
+Request a block rather than setting one yourself. Apparatus positioning for protection is fire's call; road closure is not.
+</Accordion>
+
+<Accordion title="Fire scenes that become investigations" icon="clipboard-list">
+Where a fire is suspicious, preserve the scene and hand it to police. Limit overhaul to what safety requires.
+</Accordion>
+
+<Accordion title="One channel for the incident" icon="radio">
+Command talks to dispatch. Individual crews talk to command, not directly to police units on another channel.
+</Accordion>
+
+</AccordionGroup>
+
+<Note>
+Response assignments are a template and should match whatever your department actually runs.
+</Note>
