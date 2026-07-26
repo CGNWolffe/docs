@@ -104,26 +104,26 @@
             ]
           }
         ]
+      },
+      {
+        "dropdown": "Niagara Fire Department",
+        "color": { "light": "#e03c31", "dark": "#e03c31" },
+        "tabs": [
+          {
+            "tab": "NFD Documentation",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": ["fire/introduction"]
+              },
+              {
+                "group": "Operations",
+                "pages": ["fire/apparatus", "fire/response"]
+              }
+            ]
+          }
+        ]
       }
     ]
   }
-}
-{
-  "dropdown": "Niagara Fire Department",
-  "color": { "light": "#e03c31", "dark": "#e03c31" },
-  "tabs": [
-    {
-      "tab": "NFD Documentation",
-      "groups": [
-        {
-          "group": "Getting Started",
-          "pages": ["fire/introduction"]
-        },
-        {
-          "group": "Operations",
-          "pages": ["fire/apparatus", "fire/response"]
-        }
-      ]
-    }
-  ]
 }
