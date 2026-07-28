@@ -8,8 +8,9 @@
     "dark": "#2f2a1c"
   },
   "logo": {
-    "light": "https://r2.fivemanage.com/KEz1Oy0MdcoGQovbqV0rI/image-removebg-preview.png",
-    "dark": "https://r2.fivemanage.com/KEz1Oy0MdcoGQovbqV0rI/image-removebg-preview.png"
+    "light": "/images/myLogo.png",
+    "dark": "/images/myLogo.png",
+    "href": "https://r2.fivemanage.com/KEz1Oy0MdcoGQovbqV0rI/myLogo.png"
   },
   "favicon": "/favicon.ico",
   "navbar": {
