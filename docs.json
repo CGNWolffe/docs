@@ -1,15 +1,15 @@
 {
   "theme": "almond",
-  "name": "Opp Docs",
-  "description": "Official documentation for OPP GLJRP Niagara Detachment members — procedures, SOPs, radio usage, and patrol expectations.",
+  "name": "Project 909 Docs",
+  "description": "Official documentation for Project 909 — San Bernardino County Sheriff's Department and California Highway Patrol. Procedures, SOPs, radio usage, and patrol expectations.",
   "colors": {
-    "primary": "#d7ac26",
-    "light": "#999035",
-    "dark": "#3f3820"
+    "primary": "#c8a24a",
+    "light": "#8a7d4e",
+    "dark": "#2f2a1c"
   },
   "logo": {
-    "light": "https://media.brand.dev/ca27d175-2218-42b1-9afe-714e1998f33d.png",
-    "dark": "https://media.brand.dev/ca27d175-2218-42b1-9afe-714e1998f33d.png"
+    "light": "https://r2.fivemanage.com/KEz1Oy0MdcoGQovbqV0rI/image-removebg-preview.png",
+    "dark": "https://r2.fivemanage.com/KEz1Oy0MdcoGQovbqV0rI/image-removebg-preview.png"
   },
   "favicon": "/favicon.ico",
   "navbar": {
@@ -41,8 +41,8 @@
   "navigation": {
     "dropdowns": [
       {
-        "dropdown": "Great Lakes Justice Handbook",
-        "color": { "light": "#ff0000", "dark": "#ff0000" },
+        "dropdown": "Project 909 Handbook",
+        "color": { "light": "#c8a24a", "dark": "#c8a24a" },
         "tabs": [
           {
             "tab": "Handbook",
@@ -51,11 +51,11 @@
         ]
       },
       {
-        "dropdown": "Ontario Provincial Police",
-        "color": { "light": "#fffc00", "dark": "#fffc00" },
+        "dropdown": "San Bernardino County Sheriff",
+        "color": { "light": "#046a38", "dark": "#046a38" },
         "tabs": [
           {
-            "tab": "OPP Documentation",
+            "tab": "SBCSD Documentation",
             "groups": [
               {
                 "group": "Getting Started",
@@ -68,7 +68,8 @@
                   "procedures/patrol",
                   "procedures/report-writing",
                   "procedures/phonetic-alphabet",
-                  "procedures/radio-usage"
+                  "procedures/radio-usage",
+                  "procedures/use-of-force"
                 ]
               },
               {
@@ -96,21 +97,90 @@
             ]
           },
           {
-            "tab": "OPP Sub Divisions",
+            "tab": "Stations & Areas",
+            "groups": [
+              {
+                "group": "Victor Valley",
+                "pages": [
+                  "stations/victorville/overview",
+                  "stations/victorville/patrol-areas",
+                  "stations/victorville/callsigns"
+                ]
+              },
+              {
+                "group": "West Valley",
+                "pages": [
+                  "stations/rancho-cucamonga/overview",
+                  "stations/rancho-cucamonga/patrol-areas",
+                  "stations/rancho-cucamonga/callsigns"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "SBCSD Divisions",
             "pages": [
-              "k9-division",
-              "emergency-task-force",
-              "air-operations-division"
+              "divisions/k9-unit",
+              "divisions/swat",
+              "divisions/aviation",
+              "divisions/traffic-enforcement",
+              "divisions/detectives"
             ]
           }
         ]
       },
       {
-        "dropdown": "Niagara Fire Department",
+        "dropdown": "California Highway Patrol",
+        "color": { "light": "#b8860b", "dark": "#b8860b" },
+        "tabs": [
+          {
+            "tab": "CHP Documentation",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": ["chp/introduction", "chp/new-member-checklist"]
+              },
+              {
+                "group": "Procedures & SOPs",
+                "pages": [
+                  "chp/procedures/overview",
+                  "chp/procedures/traffic-enforcement",
+                  "chp/procedures/collision-investigation",
+                  "chp/procedures/traffic-breaks",
+                  "chp/procedures/pursuits"
+                ]
+              },
+              {
+                "group": "Communication",
+                "pages": [
+                  "chp/communication/radio-codes",
+                  "chp/communication/callsigns",
+                  "chp/communication/dispatch"
+                ]
+              },
+              {
+                "group": "Training",
+                "pages": ["chp/training/academy", "chp/training/fto-program"]
+              }
+            ]
+          },
+          {
+            "tab": "CHP Areas",
+            "pages": [
+              "chp/areas/inland-division",
+              "chp/areas/victorville-area",
+              "chp/areas/rancho-cucamonga-area",
+              "chp/areas/san-bernardino-area"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "San Bernardino County Fire",
         "color": { "light": "#e03c31", "dark": "#e03c31" },
         "tabs": [
           {
-            "tab": "NFD Documentation",
+            "tab": "SBCoFD Documentation",
             "groups": [
               {
                 "group": "Getting Started",
