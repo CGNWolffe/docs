@@ -1,0 +1,179 @@
+---
+title: "SBCSD Standard Operating Procedures"
+sidebarTitle: "SOP"
+description: "Standard operating procedures for San Bernardino County Sheriff's Department deputies, covering pursuit intervention, firearms discharge from a vehicle, and vehicle contact with fleeing suspects."
+---
+
+These procedures govern SBCSD deputies during patrol operations. They apply to all deputies regardless of rank, station, or division assignment. Where a procedure requires supervisor authorization, that authorization must be requested and granted over radio — not assumed.
+
+<Warning>
+  Failure to follow these procedures is a conduct issue, not a roleplay preference. Repeated violations result in retraining, division removal, or dismissal from the department.
+</Warning>
+
+## Scope
+
+This SOP covers three high-risk tactics available to SBCSD deputies:
+
+1. Pursuit Intervention Technique (PIT)
+2. Firearms discharge from a patrol vehicle
+3. Vehicle contact with a fleeing suspect
+
+Each carries mandatory conditions. A deputy who cannot meet the conditions does not use the tactic.
+
+---
+
+## 1. Pursuit Intervention Technique (PIT)
+
+A PIT maneuver may be used to terminate a vehicle pursuit when the suspect's continued flight presents a danger to the public.
+
+### Standard PIT — no authorization required
+
+A deputy may execute a PIT without prior authorization when **all** of the following are true:
+
+- Pursuit speed is **35 MPH or below**
+- The roadway is clear of civilian traffic in the immediate area
+- The suspect vehicle is a standard passenger vehicle
+- The deputy has a clear angle and is trained on the maneuver
+
+### High-Speed PIT — supervisor authorization required
+
+Any PIT attempted **above 35 MPH** is allowed, as long as supervisors are aware.
+
+<Steps>
+  <Step title="Request over radio">
+    Advise Dispatch of your unit, current speed, location, and direction of travel, then request a high-speed PIT.
+  </Step>
+  <Step title="Wait for authorization">
+    A Sergeant or above must respond with clear authorization. Silence is not approval. If no supervisor is available, the PIT is denied by default.
+  </Step>
+  <Step title="Execute and advise">
+    Once authorized, execute when conditions allow and immediately advise Dispatch of the result and any collision.
+  </Step>
+</Steps>
+
+<Note>
+  Supervisors weigh the danger of the pursuit against the danger of the PIT itself. Expect authorization to be denied on crowded surface streets, in heavy freeway traffic, or against motorcycles and heavy vehicles.
+</Note>
+
+### Prohibited
+
+- PIT against motorcycles
+- PIT against heavy vehicles, buses, or vehicles carrying visible passengers
+- PIT on a bridge, overpass, or elevated roadway
+- PIT above 35 MPH without authorization
+
+---
+
+## 2. Firearms Discharge From a Patrol Vehicle
+
+Deputies are permitted to discharge a firearm from inside a patrol vehicle where deadly force is otherwise justified under the department's use of force policy.
+
+<Warning>
+  Discharging from a vehicle does not lower the threshold for deadly force. Every standard requirement still applies — the tactic changes, the justification does not.
+</Warning>
+
+### Requirements
+
+- Deadly force must already be justified under [Use of Force](/procedures/use-of-force)
+- The deputy must have a clear line of fire with an identified backstop
+- Discharge must be advised over radio immediately
+
+### Vehicle becomes evidence
+
+Once a firearm is discharged from a patrol vehicle, **that vehicle becomes part of the investigation.**
+
+<Steps>
+  <Step title="Secure the vehicle">
+    The vehicle is out of service immediately. Do not continue patrol in it, and do not clean, repair, or modify it.
+  </Step>
+  <Step title="Advise Dispatch">
+    Notify Dispatch that your unit is out of service and the vehicle is held for investigation.
+  </Step>
+  <Step title="Return to Motorpool">
+    Return the vehicle to Motorpool and log it as evidence-held.
+  </Step>
+  <Step title="Draw a replacement">
+    Sign out a new patrol vehicle from Motorpool before returning to service. You are 10-6 until this is complete.
+  </Step>
+</Steps>
+
+<Note>
+  Continuing patrol in a vehicle that is part of an active investigation is a serious procedural violation. If Motorpool has no vehicle available, advise your supervisor and go off duty rather than returning to the field.
+</Note>
+
+---
+
+## 3. Vehicle Contact With a Fleeing Suspect
+
+Deputies may use a patrol vehicle to make deliberate contact with a suspect fleeing **on foot**, for the purpose of stopping the suspect — not injuring or killing them.
+
+<Warning>
+  This is a control tactic, not deadly force. Contact intended or likely to kill is outside policy and will be treated as an unjustified use of deadly force.
+</Warning>
+
+### Requirements
+
+- Speed at the moment of contact must be **low — 15 MPH or below**
+- Contact must be glancing or blocking, never a head-on strike
+- The suspect must be an active fleeing suspect, not a bystander or a compliant subject
+- The area must be clear of other pedestrians
+- Foot pursuit must be impractical or already failing
+
+### After contact
+
+<Steps>
+  <Step title="Advise Dispatch">
+    State that vehicle contact was made and give your location.
+  </Step>
+  <Step title="Request medical">
+    Request Fire/EMS to the scene regardless of whether the suspect appears injured. This is not optional.
+  </Step>
+  <Step title="Notify a supervisor">
+    A Sergeant or above responds to the scene.
+  </Step>
+  <Step title="Document">
+    Vehicle contact is documented in the arrest report and in a separate use of force report.
+  </Step>
+</Steps>
+
+### Prohibited
+
+- Contact above 15 MPH
+- Head-on contact
+- Contact with a suspect who has stopped, surrendered, or is complying
+- Contact where other pedestrians are in the area
+- Contact used as punishment after a pursuit has already ended
+
+---
+
+## Reporting Requirements
+
+All three tactics require documentation before the deputy goes off duty.
+
+| Tactic | Report Required | Supervisor Notification |
+| --- | --- | --- |
+| Standard PIT (≤35 MPH) | Collision report | After the fact |
+| High-speed PIT (>35 MPH) | Collision + use of force report | Authorization required beforehand |
+| Firearms discharge from vehicle | Use of force report + evidence log | Immediate, on scene |
+| Vehicle contact with pedestrian | Arrest + use of force report | Immediate, on scene |
+
+<Card title="Report Writing" icon="file-text" href="/procedures/report-writing">
+  Formatting and content standards for all department reports.
+</Card>
+
+---
+
+## Supervisor Authority
+
+Sergeants and above may deny any of these tactics at any time, including mid-pursuit. A denial is final and is not open to debate over the radio.
+
+Supervisors are expected to consider:
+
+- Public danger presented by the suspect's continued flight
+- Traffic and pedestrian density
+- Available units and containment options
+- Whether the pursuit can be terminated by less forceful means
+
+<Note>
+  If a supervisor terminates a pursuit, all units disengage immediately, reduce speed, and clear emergency equipment. Continuing after a termination order is one of the fastest ways to lose your patrol privileges.
+</Note>
