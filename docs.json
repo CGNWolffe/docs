@@ -1,4 +1,5 @@
 {
+  "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
   "name": "Project 909 Docs",
   "description": "Official documentation for Project 909 — San Bernardino County Sheriff's Department and California Highway Patrol. Procedures, SOPs, radio usage, and patrol expectations.",
@@ -10,7 +11,7 @@
   "logo": {
     "light": "/images/myLogo.png",
     "dark": "/images/myLogo.png",
-    "href": "https://r2.fivemanage.com/KEz1Oy0MdcoGQovbqV0rI/myLogo.png"
+    "href": "/"
   },
   "favicon": "/favicon.ico",
   "navbar": {
@@ -33,13 +34,93 @@
     "library": "lucide"
   },
   "contextual": {
-    "options": ["copy", "view", "assistant", "mcp", "add-mcp"],
+    "options": ["copy", "view", "mcp"],
     "display": "header"
   },
   "metadata": {
     "timestamp": true
   },
   "navigation": {
-    "groups": []
+    "tabs": [
+      {
+        "tab": "Get Started",
+        "groups": [
+          {
+            "group": "Welcome",
+            "pages": [
+              "introduction",
+              "new-member-checklist",
+              "rules-and-expectations"
+            ]
+          },
+          {
+            "group": "Procedures",
+            "pages": [
+              "procedures/patrol",
+              "procedures/report-writing",
+              "procedures/use-of-force"
+            ]
+          },
+          {
+            "group": "Communication",
+            "pages": [
+              "communication/radio-usage",
+              "communication/ten-codes",
+              "communication/phonetics",
+              "communication/callsigns"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "SBCSD",
+        "groups": [
+          {
+            "group": "Department",
+            "pages": [
+              "sbcsd/overview",
+              "sbcsd/ranks",
+              "sbcsd/stations",
+              "sbcsd/sop"
+            ]
+          },
+          {
+            "group": "Divisions",
+            "pages": [
+              "divisions/specialized-enforcement",
+              "divisions/k9",
+              "divisions/criminal-investigations",
+              "divisions/air-operations"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Divisions",
+        "groups": [
+          {
+            "group": "Police Divisions",
+            "pages": [
+              "divisions/highway-safety"
+            ]
+          },
+          {
+            "group": "Fire Department",
+            "pages": [
+              "fire/introduction",
+              "fire/apparatus",
+              "fire/response"
+            ]
+          },
+          {
+            "group": "Dispatch",
+            "pages": [
+              "dispatch/overview",
+              "dispatch/call-handling"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
